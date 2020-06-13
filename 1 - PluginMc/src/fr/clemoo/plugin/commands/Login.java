@@ -12,6 +12,7 @@ import fr.clemoo.plugin.managers.Account;
 public class Login implements CommandExecutor{
 	
 	private Account account;
+	
 	@Override
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 		if(!(sender instanceof Player)) {
