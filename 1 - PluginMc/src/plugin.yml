@@ -1,0 +1,18 @@
+name: FirstPlugin
+author: Clemoo
+version: 0.1
+api-version: 1.13
+main: fr.clemoo.plugin.Plugin
+commands:
+  test:
+    description: This is a test
+  spawn:
+    description: To go to spawn
+  menu:
+   description: To go to menu
+  login:
+    description: To login your account
+  register:
+    description: To register your account
+  calcul:
+    description: Test yourself in calcul
